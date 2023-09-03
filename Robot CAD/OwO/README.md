@@ -1,11 +1,6 @@
 # :3
-This robot is technically called ":3" but it's called "OwO" in the files because filesystems don't like colons.
+| Name | Class | Status |
+|------|-------|--------|
+|:3      |Plastic antweight       |OK to build!        |
 
-Plastic antweight.
-
-Will be fighting at BAM in September
-
-Designed to use 2 16mm motors, and 1.5x0.5" tires.
-
-:3
-
+:3 is a robot designed to mess around in the plastic league. Inspired by the NHRL housebots. 
