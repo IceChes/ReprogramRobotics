@@ -1,5 +1,4 @@
 # Cruciatus
-# Boing!
 | Name | Class | Status |
 |------|-------|--------|
 |Cruciatus      |Plastic antweight       |Do not build        |
