@@ -1,11 +1,6 @@
 # No Solution
-A robot named for how hard it was to find the right spring.
+| Name | Class | Status |
+|------|-------|--------|
+|No Solution      |Plastic antweight       |Abandonware        |
 
-Plastic antweight.
-
-Untested/unbuilt. Consider this robot abandonware. 
-
-Designed to use 2 Silver Sparks, twist hubs, and 2x0.5" tires as well as a 35kg servo with horn and the 94125k633 spring from McMaster.
-
-Ideally do not build this robot.
-
+Designed as one of the only cam flippers in the world, No Solution was abandoned because I could not for the life of me find a decent spring. Go looking for one if you like. 
