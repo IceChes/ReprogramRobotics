@@ -45,6 +45,7 @@ V3 Onshape: https://cad.onshape.com/documents/77637ca4f752c54e35cf089e/w/12f24f7
 - 18x M3 nuts
 - 6x M3 plastite screws
 - 2x M4x10 bolts
+- 2x 10x2.5mm magnets
 
 # Assembly 
 1. Use 4x M3x6 bolts and nuts to secure 2x top motor mounts to the mounts on the lid.
@@ -65,3 +66,4 @@ V3 Onshape: https://cad.onshape.com/documents/77637ca4f752c54e35cf089e/w/12f24f7
 16. Thread M4x10 bolt through fork and into upright. The bolt should bottom out on the chassis of the robot, allowing the fork to hinge. The hinging should be limited by the forward upright nut.
 17. Repeat step 16 for the other fork.
 18. Push sled into slot in the bottom of the uprights. Secure with a suitable adhesive.
+19. Slide the magnets into the magdock, securing with a suitable adhesive. 
