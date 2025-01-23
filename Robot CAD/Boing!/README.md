@@ -7,6 +7,8 @@ Boing is my first full combat robot, named for its bouncy wheelguards. It's got 
 
 Notes: The wheel guards can also be made of 175x25 strips of UHMW. The weapon arm should be cut from 7075 and the weapon from AR500 steel. The lid is slightly too thin and tends to break around the screws in combat.
 
+![boing](https://github.com/user-attachments/assets/3b7a6ad3-3fb6-48a7-bf3a-e73d22951ea3)
+
 # Fab
 - 1x Unibody Shell - Any rigid filament
 - 1x Front Face - Any rigid filament
