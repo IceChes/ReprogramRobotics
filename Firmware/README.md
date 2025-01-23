@@ -10,3 +10,6 @@ Unless otherwise specified, all firmware is to be flashed via Arduino.
 - transmitter_gen_2 - FW for my unreleased gen2 transmitter.
 - universal_robot_firmware - FW for robots using RF nano and conventional RC parts.
 - universal_transmitter_firmware - FW for the gen1 transmitter.
+
+# License
+- conn_test, simplerx, and simpletx are exempt from the GPL3 license as they were not written by me.
