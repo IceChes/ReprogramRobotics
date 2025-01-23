@@ -1,6 +1,8 @@
 # Gen 2 Transmitter
 While you can technically build this, I advise against it. It has a lot of problems and design issues that you will need to solve. Nevertheless, I am placing the files and BOM here. If you choose to build this, refer to the Gen 2 transmitter sketch in the Firmware folder for Arduino wiring.
 
+![tx2](https://github.com/user-attachments/assets/d987dac7-0ecd-46a7-af55-bb17de3eb8c5)
+
 # BOM
 - 2x PS2 joystick module
 - 1x 0.96" I2C 128x32 OLED
