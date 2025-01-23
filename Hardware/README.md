@@ -1,2 +1,2 @@
 # Hardware
-Mostly this is just my active KiCad workstations. Some other stuff might show up later.
+3D files and PCBs that aren't robots.
