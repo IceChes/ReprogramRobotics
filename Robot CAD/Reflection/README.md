@@ -7,6 +7,8 @@ Reflection is a full combat antweight designed primarily as a test platform. V2 
 
 V3 Onshape: https://cad.onshape.com/documents/77637ca4f752c54e35cf089e/w/12f24f7fb4df0769d7ef96ab/e/62a3ec6d1df3cc2ba4c8ca14
 
+![reflection](https://github.com/user-attachments/assets/f4eefd1e-6bde-424a-9820-62afaf9f3c21)
+
 # Fab
 - 2x Fork - 1/8" AR500
 - 2x Armor Panel - 1mm Gr5 Ti
