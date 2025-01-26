@@ -1,7 +1,7 @@
 # Reflection
 | Name | Class | Status |
 |------|-------|--------|
-|Reflection      |Antweight       |0-2       |
+|Reflection      |Antweight       |0-6       |
 
 Reflection is a full combat antweight designed primarily as a test platform. V2 has fought and went 0-2. V3 has never fought. V1 is not released.
 
