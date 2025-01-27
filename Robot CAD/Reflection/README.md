@@ -11,7 +11,7 @@ V3 Onshape: https://cad.onshape.com/documents/77637ca4f752c54e35cf089e/w/12f24f7
 
 ![reflection](https://github.com/user-attachments/assets/f4eefd1e-6bde-424a-9820-62afaf9f3c21)
 
-# Fab
+# Fab (v3)
 - 2x Fork - 1/8" AR500
 - 2x Armor Panel - 1mm Gr5 Ti
 - 1x Left Block - TPU
@@ -29,7 +29,7 @@ V3 Onshape: https://cad.onshape.com/documents/77637ca4f752c54e35cf089e/w/12f24f7
 - 1x Weapon Hub - TPU
 - 1x Weapon Washer - 1mm Gr5 Ti
 
-# Parts
+# Parts (v3)
 - 2x Fingertech silver spark OR 2x Repeat MK2 motors
 - 1x 2207 brushless motor
 - 1x 380mAh GNB 3S battery
@@ -51,7 +51,7 @@ V3 Onshape: https://cad.onshape.com/documents/77637ca4f752c54e35cf089e/w/12f24f7
 - 2x M4x10 bolts
 - 2x 10x2.5mm magnets
 
-# Assembly 
+# Assembly (v3)
 1. Use 4x M3x6 bolts and nuts to secure 2x top motor mounts to the mounts on the lid.
 2. Tap the bottom corner hole in the uprights to accept an M4 bolt. 
 3. Bolt uprights in place using 4x M5x10 bolts and nuts. The bolt face should be inside the chassis.
