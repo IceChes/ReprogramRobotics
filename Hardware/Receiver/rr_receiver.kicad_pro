@@ -59,7 +59,7 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|140687001|70424001|18142a71-8c81-4ce9-8a01-ecd7cf8ea8b0|e76481d1-96c8-4ba0-bf57-058fa53aedab"
+        "courtyards_overlap|161834001|45224001|15c58e97-a37c-4268-b92e-56c0c09987ed|b31a304f-6ece-419e-a011-62890b85a5e3"
       ],
       "meta": {
         "version": 2
@@ -215,8 +215,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.4,
-          "drill": 0.2
+          "diameter": 0.5,
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
