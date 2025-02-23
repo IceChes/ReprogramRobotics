@@ -10,13 +10,13 @@
 
 #define RF_CE 7
 #define RF_CSN 8
-#define weaponPin 5
+#define weaponPin 2
 #define output1MinVal 5
 #define output1MaxVal 99
 #define output2MinVal 105
 #define output2MaxVal 199
 #define emergencyVal 50
-#define timeout 200
+#define timeout 1000
 #define debugLED 13
 
 RF24 radio(RF_CE, RF_CSN); //Attach radio on CE 7 and CSN 8.
@@ -61,7 +61,6 @@ void loop() {
     if(!esc.attached()){
       esc.attach(weaponPin);
     }
-    Serial.begin(9600);
 
     //Read
     radio.read(&packet, sizeof(packet));
@@ -69,10 +68,11 @@ void loop() {
     //Print all received data.
 
     motor1 = map(packet[1], 0, 1023, output1MinVal, output1MaxVal);
-    motor2 = map(packet[2], 0, 1023, output2MinVal, output2MaxVal);
+    motor2 = map(packet[2], 1023, 0, output2MinVal, output2MaxVal);
 
     Serial.write(motor1);
     Serial.write(motor2);
+
    
 
 
@@ -90,7 +90,7 @@ void loop() {
         delay(2);
       }
       esc.detach(); //Detach the weapon ESC.
-      Serial.end();
+      Serial.write(0);
     }
 
     last_check = packet[4];
@@ -99,7 +99,7 @@ void loop() {
   }
   else {
     if (timer - lastSuccess > timeout) {
-      Serial.end();
+      Serial.write(0);
 
       //Slowly throttle down the weapon motor. Stopping something spinning with that much inertia instantly is a really bad idea.
       for (int escStop = escWrite; escStop >= 0; escStop--) {
