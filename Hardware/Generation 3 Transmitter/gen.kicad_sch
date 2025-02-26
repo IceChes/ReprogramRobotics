@@ -693,175 +693,6 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -2575,16 +2406,16 @@
 		(uuid "2eb4ed9d-ad17-4624-bcbd-83a644cc3bc0")
 	)
 	(junction
+		(at 41.91 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "498c5038-49c4-42cd-85a0-52ae00f821b9")
+	)
+	(junction
 		(at 119.38 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74e51a9d-4a32-4a50-89e7-585c0f17d1f8")
-	)
-	(junction
-		(at 34.29 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8944913d-f717-4248-9b7b-4134a6e76fe6")
 	)
 	(junction
 		(at 93.98 179.07)
@@ -2605,12 +2436,6 @@
 		(uuid "a6d4cdd7-79da-4be0-96e1-ace0acd96919")
 	)
 	(junction
-		(at 41.91 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4364e09-0327-4034-9527-1df0e7d2fc77")
-	)
-	(junction
 		(at 81.28 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2627,6 +2452,10 @@
 	(no_connect
 		(at 68.58 161.29)
 		(uuid "550ae784-5489-4f95-840f-6c10adba5b7d")
+	)
+	(no_connect
+		(at 144.78 97.79)
+		(uuid "6d36646e-1496-4947-8512-e247db3df286")
 	)
 	(no_connect
 		(at 127 82.55)
@@ -3000,16 +2829,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 168.91) (xy 41.91 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "978b2bb6-8300-485c-abe1-97a395d28b13")
-	)
-	(wire
-		(pts
 			(xy 139.7 107.95) (xy 139.7 110.49)
 		)
 		(stroke
@@ -3077,16 +2896,6 @@
 			(type default)
 		)
 		(uuid "b66fcd0d-e4d5-4eda-aeb2-6d74f5bc0e96")
-	)
-	(wire
-		(pts
-			(xy 34.29 168.91) (xy 34.29 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7f80a3a-de05-4a98-b4e6-41c50408e5eb")
 	)
 	(wire
 		(pts
@@ -4223,72 +4032,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5176b0f5-ab9a-488a-9bdc-cb4a6f8d2428")
-		(property "Reference" "#PWR029"
-			(at 158.75 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 155.194 98.552 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4509aa91-7083-4b9b-9c2a-2e2e3849b8cb")
-		)
-		(instances
-			(project "gen"
-				(path "/81b9043e-1dea-4e64-aabc-1f4b791622ff"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 68.58 181.61 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4349,91 +4092,6 @@
 			(project ""
 				(path "/81b9043e-1dea-4e64-aabc-1f4b791622ff"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 38.1 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54b1cf40-906d-4509-b41c-f4179ee86f63")
-		(property "Reference" "R5"
-			(at 36.322 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220k"
-			(at 41.402 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 38.1 175.768 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 38.1 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 38.1 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 38.1 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ab05bf43-2f58-49e1-8dc0-13a31b9f9884")
-		)
-		(pin "1"
-			(uuid "a51984cf-007e-4452-a45c-7bc4bcb7aea4")
-		)
-		(instances
-			(project "gen"
-				(path "/81b9043e-1dea-4e64-aabc-1f4b791622ff"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6041,7 +5699,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 168.91 270)
+		(at 34.29 168.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6049,7 +5707,7 @@
 		(dnp no)
 		(uuid "b250d5d9-080a-44ce-a5e3-1ddb4bf12b42")
 		(property "Reference" "#PWR01"
-			(at 20.32 168.91 0)
+			(at 27.94 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,7 +5716,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 168.91 90)
+			(at 29.21 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6066,7 +5724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 168.91 0)
+			(at 34.29 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6075,7 +5733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 168.91 0)
+			(at 34.29 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +5742,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 168.91 0)
+			(at 34.29 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,7 +5912,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "0.1"
 			(at 173.99 67.31 90)
 			(effects
 				(font
@@ -6630,91 +6288,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 38.1 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd1e71b4-845b-4f32-9bb1-ac4ef1dba539")
-		(property "Reference" "D1"
-			(at 39.878 166.116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WHITE"
-			(at 34.036 165.862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 38.1 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 38.1 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 38.1 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 38.1 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab4fc230-d1fa-470c-b56e-a9231a2f5b34")
-		)
-		(pin "2"
-			(uuid "1d70735b-eb1d-431b-bac3-6f397cea6e9e")
-		)
-		(instances
-			(project "gen"
-				(path "/81b9043e-1dea-4e64-aabc-1f4b791622ff"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 158.75 110.49 90)
 		(unit 1)
@@ -6783,7 +6356,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 30.48 168.91 90)
+		(at 38.1 168.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6791,15 +6364,15 @@
 		(dnp no)
 		(uuid "e29f5150-3115-4c41-ab7d-45311d92c80e")
 		(property "Reference" "R1"
-			(at 28.702 171.45 90)
+			(at 36.322 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 28.448 166.878 90)
+		(property "Value" "10k"
+			(at 36.068 166.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6807,7 +6380,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 30.48 170.688 90)
+			(at 38.1 170.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6816,7 +6389,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 168.91 0)
+			(at 38.1 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6825,7 +6398,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 30.48 168.91 0)
+			(at 38.1 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,7 +6407,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 30.48 168.91 0)
+			(at 38.1 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +6416,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 30.48 168.91 0)
+			(at 38.1 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,7 +6660,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "0.1"
 			(at 129.794 72.39 0)
 			(effects
 				(font
@@ -7227,91 +6800,6 @@
 			(project ""
 				(path "/81b9043e-1dea-4e64-aabc-1f4b791622ff"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 148.59 97.79 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcce4512-f63f-40b9-b2ae-fa462287c1ad")
-		(property "Reference" "D2"
-			(at 145.796 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED"
-			(at 151.638 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 148.59 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 148.59 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 148.59 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 148.59 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b8af5ef-6a98-48c1-8204-48df74783c3e")
-		)
-		(pin "2"
-			(uuid "191f7543-eb81-4d1d-b8ad-107bbd5e4628")
-		)
-		(instances
-			(project "gen"
-				(path "/81b9043e-1dea-4e64-aabc-1f4b791622ff"
-					(reference "D2")
 					(unit 1)
 				)
 			)
