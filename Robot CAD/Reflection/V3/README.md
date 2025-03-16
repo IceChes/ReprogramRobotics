@@ -1,15 +1,5 @@
-# Reflection
-| Name | Class | Status |
-|------|-------|--------|
-|Reflection      |Antweight       |0-6       |
-
-Reflection is a full combat antweight designed primarily as a test platform. V2 has fought and went 0-2. V3 has never fought. V1 is not released.
-
-Currently, Reflection is suffering from drive inconsistencies and control issues related to the weight distribution. 
-
-V3 Onshape: https://cad.onshape.com/documents/77637ca4f752c54e35cf089e/w/12f24f7fb4df0769d7ef96ab/e/62a3ec6d1df3cc2ba4c8ca14
-
-![reflection](https://github.com/user-attachments/assets/f4eefd1e-6bde-424a-9820-62afaf9f3c21)
+# Reflection V3
+Designed to solve most of the problems of V2. Drives and hits well but still needs work. I don't recommend building V3 but if you do, build 3.1 instead. It's just better.
 
 # Fab (v3)
 - 2x Fork - 1/8" AR500
