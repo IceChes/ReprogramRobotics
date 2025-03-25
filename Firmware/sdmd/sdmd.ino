@@ -1,3 +1,5 @@
+//Version 2.0.0
+
 #define WRITE_MOTOR_1 0xC9  //writing motors: write motor command followed by data value between 0 and 200
 #define WRITE_MOTOR_2 0xCA
 #define BRAKE_MOTOR_1 0xCB  //stops motor
