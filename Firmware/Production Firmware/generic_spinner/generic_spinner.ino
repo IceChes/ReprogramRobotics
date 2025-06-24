@@ -16,8 +16,8 @@
 #define CURVE 0 //set to 0 to disable
 #define AUTO_BRAKE true
 #define FAILSAFE_BRAKE false
-#define INVERT_MOTOR_1 true
-#define INVERT_MOTOR_2 false
+#define INVERT_MOTOR_1 false
+#define INVERT_MOTOR_2 true
 
 #define STOP_TIMEOUT 1000
 
@@ -87,9 +87,9 @@ void loop() {
   timer = millis();
   if (radio.available()) {
     digitalWrite(LED_PIN, 0);
-    //if(!esc.attached()){
-    //  esc.attach(WEAPON_PIN);
-    //}
+    if(!esc.attached()){
+      esc.attach(WEAPON_PIN);
+    }
 
     //Read
     radio.read(&packet, sizeof(packet));
@@ -113,9 +113,10 @@ void loop() {
     esc_value = map(packet[0], 10, 1023, 0, 180);
 
     Serial.write(0xC9);
-    Serial.write(motor_1_value);
-    Serial.write(0xCA);
     Serial.write(motor_2_value);
+    Serial.write(0xCA);
+    Serial.write(motor_1_value);
+
 
     esc.write(esc_value);
 
@@ -148,6 +149,7 @@ void loop() {
       }
       digitalWrite(LED_PIN, 1);
       esc.detach(); //Detach the weapon ESC.
+      Serial.write(0xFF);
     }
     else {
       esc.write(esc_value);

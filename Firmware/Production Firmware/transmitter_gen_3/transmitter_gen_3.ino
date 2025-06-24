@@ -14,8 +14,8 @@
 //Joystick pins
 #define LEFT_Y_PIN A2
 #define LEFT_X_PIN A3
-#define RIGHT_Y_PIN A1
-#define RIGHT_X_PIN A0
+#define RIGHT_Y_PIN A0
+#define RIGHT_X_PIN A1
 
 //Hold length
 #define HOLD_LENGTH 500
@@ -195,7 +195,7 @@ void loop() {
       }
 
       if (right_switch == 1 && last_right_switch == 0) {
-        inverted = true;
+        inverted = !inverted;
       }
 
       //Safety check to make sure the weapon variable is okay.
