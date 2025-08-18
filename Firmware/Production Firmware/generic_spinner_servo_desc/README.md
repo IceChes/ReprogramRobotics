@@ -1,0 +1,2 @@
+# Generic Spinner
+Intended to control a 2WD spinner with an SDMD and weapon connected to pin 2, paired with a generation 2 or 3 transmitter. Use the defines at the top of the file to adjust things like inversion or SDMD characteristics.

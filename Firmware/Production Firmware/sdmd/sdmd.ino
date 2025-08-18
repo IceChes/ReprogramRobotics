@@ -22,8 +22,8 @@
 #define BRAKE_TIMEOUT 100  //set this to determine the idle timeout before braking is enabled
 
 //user vars
-bool brake = true;               //set this to false to disable braking after 100ms
-bool brake_on_failsafe = false;  //set this to false to disable braking on failsafe
+bool brake = false;               //set this to false to disable braking after 100ms
+bool brake_on_failsafe = true;  //set this to false to disable braking on failsafe
 
 //incoming data var
 byte data;
