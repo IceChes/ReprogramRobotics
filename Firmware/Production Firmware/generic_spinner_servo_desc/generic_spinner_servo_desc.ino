@@ -11,10 +11,10 @@
 #define MOTOR_B_PIN 3
 #define LED_PIN 13
 
-#define MOTOR_1_MINIMUM_VALUE 0
-#define MOTOR_1_MAXIMUM_VALUE 180
-#define MOTOR_2_MINIMUM_VALUE 0
-#define MOTOR_2_MAXIMUM_VALUE 180
+#define MOTOR_1_MINIMUM_VALUE 30
+#define MOTOR_1_MAXIMUM_VALUE 150
+#define MOTOR_2_MINIMUM_VALUE 30
+#define MOTOR_2_MAXIMUM_VALUE 150
 #define INVERT_MOTOR_1 true
 #define INVERT_MOTOR_2 false
 
@@ -95,6 +95,7 @@ void loop() {
     Serial.println(esc_value);
     Serial.println(motor_1_value);
     Serial.println(motor_2_value);
+    Serial.println(packet[4]);
 
     if (packet[4] == last_check_value) {
       //Detach both drive ESCs instantly.

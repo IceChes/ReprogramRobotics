@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+A1,Arduino_Nano,1,Arduino_Nano_v3.x,
+C1,0805,1,C,
+J5,CONN_PRT-14417_SPK,1,PRT-14417,
+R1,0805,1,R,
+UPDI,PinSocket_1x01_P2.54mm_Vertical,1,Conn_01x01_Socket,
